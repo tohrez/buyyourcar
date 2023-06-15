@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*, body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    position: fixed;
+    padding: 16px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ button{
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    background-color: antiquewhite;
+    color: #a92f41;
+    border-radius: 4px;
+
+}
+.container{
+    background-image: url('https://unsplash.com/photos/r90ZgffimHk/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjg2ODQyMzg2fA&force=true&w=1920');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+color: antiquewhite;
+flex-direction: column;
+gap: 10px;
+
+
+}
+
+
+.container .toptext{
+    font-family: 'Fraunces', serif;
+    font-size: 90px;
+font-weight: 700;
+}
+
+
+.littletext{
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+color: blanchedalmond;
+}
